@@ -4,7 +4,7 @@ import Chat from "./components/Chat";
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-row w-screen">
+    <main className="flex h-screen flex-row w-screen overflow-hidden">
       <div className="w-full h-full basis-1/5">
         <Menu />
       </div>
